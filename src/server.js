@@ -1,7 +1,7 @@
 import express from 'express'
 import Mozaik  from 'mozaik'
 import config  from '../config'
-//import EXT_NAME  from 'mozaik-ext-EXT_NAME/client'
+import twitter  from 'mozaik-ext-twitter/client'
 
 
 const forceSSL = (req, res, next) => {
@@ -14,7 +14,7 @@ const forceSSL = (req, res, next) => {
 
 
 const mozaik = new Mozaik(config);
-//mozaik.bus.registerApi('EXT_NAME', EXT_NAME)
+mozaik.bus.registerApi('twitter', twitter)
 
 
 const app    = express()

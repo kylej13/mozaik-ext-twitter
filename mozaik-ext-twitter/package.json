@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mozaik-ext-twitter@1.0.0",
+        "scope": null,
+        "escapedName": "mozaik-ext-twitter",
+        "name": "mozaik-ext-twitter",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/ec2-user/second-demo"
+    ]
+  ],
+  "_from": "mozaik-ext-twitter@1.0.0",
+  "_id": "mozaik-ext-twitter@1.0.0",
+  "_inCache": true,
+  "_location": "/mozaik-ext-twitter",
+  "name": "mozaik-ext-twitter",
+  "description": "Mozaïk twitter widget",
+  "license": "MIT",
+  "author": {
+    "name": "Kyle Johnson",
+    "url": "https://github.com/kylej13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kylej13/mozaik-ext-weather.git"
+  },
+  "_requested": {
+    "raw": "mozaik-ext-twitter@1.0.0",
+    "scope": null,
+    "escapedName": "mozaik-ext-twitter",
+    "name": "mozaik-ext-twitter",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_spec": "mozaik-ext-twitter@1.0.0",
+  "_where": "/home/ec2-user/second-demo",
+  "name": "mozaik-ext-twitter",
+  "nyc": {
+    "extension": [
+      ".jsx"
+    ]
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "babel-register": "6.7.2",
+    "dotenv": "0.5.1",
+    "gulp": "3.9.0",
+    "lodash": "3.10.0",
+    "mozaik": "1.4.4",
+    "react": "0.13.3"
+  },
+  "scripts": {
+    "test": "gulp build",
+    "start": "node app.js",
+    "postinstall": "gulp build"
+  },
+  "version": "1.0.0"
+}

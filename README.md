@@ -1,5 +1,5 @@
-# Mozaïk *EXT_NAME* extension demo [DEMO][demo-url]
+# Mozaïk *twitter* extension demo [DEMO][demo-url]
 
-This branch contains a sample demo to showcase `EXT_NAME` widgets.
+This branch contains a sample demo to showcase `twitter` widgets.
 
-[demo-url]: https://mozaik-EXT_NAME.herokuapp.com/
+[demo-url]: https://mozaik-twitter.herokuapp.com/

@@ -23,6 +23,11 @@ const config = {
             rows:    2,
             widgets: [
                 // Add widgets here
+                {
+                    type: 'twitter.twitter',
+                    columns: 2, rows: 2,
+                    x:0, y:1
+                }
             ]
         }
     ]
